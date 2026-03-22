@@ -15,7 +15,7 @@
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
 
-        $query = "INSERT INTO users (username, email, password) VALUES (:username, 
+        $query = "INSERT INTO users (username, email, password) VALUES (:username,
         :email, :password)";
 
         $arr = [

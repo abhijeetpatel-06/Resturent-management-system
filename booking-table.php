@@ -4,7 +4,7 @@
 <?php 
 
     if(!isset($_SERVER['HTTP_REFERER'])){
-        // redirect them to your desired location
+        // redirect them to your desired location easily
         echo "<script>window.location.href='".APPURL."'</script>";
         exit;
     }
